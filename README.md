@@ -1,101 +1,125 @@
-# 🥕 Good Food Purchasing Data Analysis
+🥕 Good Food Purchasing Analytics & Dashboard
 
-📌 **Government Food Purchasing Trends Across Agencies**
+Government Food Purchasing Trends Across Agencies
 
-➡️ This project analyzes the **Good Food Purchasing Data**, which tracks food procurement by various city agencies in the U.S., promoting transparency in public food spending and encouraging sustainable, equitable food systems.
+📌 Project Overview
 
----
+This project analyzes Good Food Purchasing Data from U.S. city agencies to uncover insights into public food spending, vendor behavior, pricing trends, and sustainability indicators.
+The analysis is complemented by an interactive dashboard that enables data-driven and sustainable food procurement decisions.
 
-## 📁 Dataset
+📁 Dataset
 
-The dataset is sourced from the **U.S. Government Open Data Portal**:  
-[https://catalog.data.gov/dataset/good-food-purchasing-data](https://catalog.data.gov/dataset/good-food-purchasing-data)
+Source: U.S. Government Open Data Portal
 
-It contains details such as:
-- Product name, category, and group  
-- Quantity purchased and total cost  
-- Vendors and city agencies  
-- Unit price, product origin, and time period
+Dataset: Good Food Purchasing Data
 
----
+Key attributes include:
 
-## 🎯 Project Objectives
+Product name, category, and group
 
-1. **Analyze the distribution of food spending across different food categories**  
-2. **Compare the average price per unit of key food items across different City agencies**  
-3. **Identify and visualize the top food items and vendors based on quantity and cost**  
-4. **Track year-over-year changes in fruit and vegetable purchases**  
-5. **Detect food items with significant price fluctuations over time**  
-6. **Classify food items into processed vs. whole foods and analyze their purchase ratio**  
-7. **Explore vendor diversification across product categories**
+Quantity purchased and total cost
 
----
+Vendors and city agencies
 
-## 🧼 Data Cleaning
+Unit price, product origin, and time period
 
-Before analysis, the dataset was cleaned for accuracy:
-- Handled missing values (especially in price and time fields)
-- Parsed and standardized date formats
-- Removed duplicates and inconsistent vendor/product entries
-- Created new features (like `Year`, `Food Type` classification)
+🎯 Project Objectives
 
----
+Analyze food spending distribution across categories
 
-## 📊 Exploratory Data Analysis (EDA)
+Compare average unit prices across city agencies
 
-To derive insights and visualize trends, the following techniques were used:
-- Bar charts, pie charts, and heatmaps
-- Grouped aggregations and trend lines
-- Outlier detection (boxplots)
-- Correlation matrix for numerical features
-- Time-series analysis by year
+Identify top vendors and food items by cost and quantity
 
----
+Track year-over-year trends in fruit and vegetable purchases
 
-## 🛠️ Libraries Used
+Detect price fluctuations in frequently purchased items
 
-- `pandas`  
-- `numpy`  
-- `matplotlib`  
-- `seaborn`  
-- `datetime`
+Classify food into whole vs. processed categories
 
----
+Explore vendor diversification across product groups
 
-## 🔍 Key Insights
+🧼 Data Cleaning & Preparation
 
-- **Spending was highly concentrated** in specific categories like grains and dairy.
-- **Price per unit varied widely** across city agencies for the same food items.
-- **Top vendors** were responsible for large shares of total food cost.
-- **Fruit and vegetable purchases** fluctuated over years, possibly due to policy changes.
-- **Certain products like ketchup and chips showed price volatility** over time.
-- **Whole foods made up a larger portion of purchases**, but processed food spending was significant.
-- **Many vendors specialized**, but a few served across diverse categories.
+To ensure accurate analysis:
 
----
+Handled missing values and inconsistent entries
 
-## 🌍 Why This Project Matters
+Standardized date formats and created a Year feature
 
-Understanding public food procurement patterns helps governments:
-- Improve **budget efficiency**  
-- Support **local and sustainable** vendors  
-- Encourage **healthy food choices**  
-- Make **data-driven policy decisions** to strengthen food systems
+Removed duplicate vendor and product records
 
-This project aims to turn raw data into actionable insights for better governance and transparency.
+Classified food items into whole and processed categories
 
----
+📊 Exploratory Data Analysis (EDA)
 
-## 🔭 Future Scope
+Analysis techniques included:
 
-- **Forecast spending trends** with machine learning  
-- **Cluster vendors** by product diversity and price patterns  
-- **Develop an interactive dashboard** for city officials and public use  
-- **Geo-map vendor origins** to analyze local vs. global sourcing  
+Category-wise and vendor-wise aggregations
 
----                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+Time-series trend analysis
 
-## 🤝 Let’s Connect!
+Price variation and outlier detection
 
-Have ideas to enhance this project or want to collaborate on public data transparency projects?  
-Feel free to **fork the repo**, raise an issue, or reach out!
+Correlation analysis of numerical features
+
+Visual exploration using bar charts, heatmaps, and boxplots
+
+📈 Dashboard Features
+
+Interactive filters and slicers for agencies, vendors, and categories
+
+Visual breakdown of spending patterns and pricing trends
+
+Insights on sustainability and cost efficiency
+
+Decision-support views for policy makers and procurement teams
+
+🔍 Key Insights
+
+Food spending is concentrated in a few major categories such as grains and dairy
+
+Significant unit price variation exists across agencies for identical items
+
+A small number of vendors account for a large share of total spend
+
+Fruit and vegetable purchases show year-over-year fluctuations
+
+Processed foods contribute a notable portion of total expenditure despite higher whole-food purchases
+
+Vendor specialization is common, with limited diversification
+
+🛠️ Tools & Technologies
+
+Python: Pandas, NumPy, Matplotlib, Seaborn
+
+Data Processing: Data Cleaning, Feature Engineering, EDA
+
+Visualization & BI: MS Excel, Power Query, Pivot Tables, Power BI
+
+Techniques: Data Visualization, Trend Analysis, Analytical Reporting
+
+🌍 Why This Project Matters
+
+This project demonstrates how public procurement data can be transformed into actionable insights to:
+
+Improve budget efficiency
+
+Encourage sustainable and healthy food sourcing
+
+Support transparent, data-driven governance
+
+🔭 Future Enhancements
+
+Forecast food spending trends using machine learning
+
+Cluster vendors based on pricing and product diversity
+
+Expand dashboard interactivity for public access
+
+Geo-map vendor origins to assess local vs. global sourcing
+
+🤝 Let’s Connect
+
+Interested in improving public data transparency or procurement analytics?
+Feel free to fork the repository, open an issue, or collaborate.
