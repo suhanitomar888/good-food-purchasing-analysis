@@ -1,13 +1,13 @@
-#🥕 Good Food Purchasing Analytics & Dashboard
+# 🥕 Good Food Purchasing Analytics & Dashboard
 
 Government Food Purchasing Trends Across Agencies
 
-#📌 Project Overview
+# 📌 Project Overview
 
 This project analyzes Good Food Purchasing Data from U.S. city agencies to uncover insights into public food spending, vendor behavior, pricing trends, and sustainability indicators.
 The analysis is complemented by an interactive dashboard that enables data-driven and sustainable food procurement decisions.
 
-#📁 Dataset
+# 📁 Dataset
 
 Source: U.S. Government Open Data Portal
 
@@ -23,7 +23,7 @@ Vendors and city agencies
 
 Unit price, product origin, and time period
 
-🎯 Project Objectives
+# 🎯 Project Objectives
 
 Analyze food spending distribution across categories
 
@@ -39,7 +39,7 @@ Classify food into whole vs. processed categories
 
 Explore vendor diversification across product groups
 
-🧼 Data Cleaning & Preparation
+# 🧼 Data Cleaning & Preparation
 
 To ensure accurate analysis:
 
@@ -75,7 +75,7 @@ Insights on sustainability and cost efficiency
 
 Decision-support views for policy makers and procurement teams
 
-🔍 Key Insights
+# 🔍 Key Insights
 
 Food spending is concentrated in a few major categories such as grains and dairy
 
@@ -89,7 +89,7 @@ Processed foods contribute a notable portion of total expenditure despite higher
 
 Vendor specialization is common, with limited diversification
 
-🛠️ Tools & Technologies
+# 🛠️ Tools & Technologies
 
 Python: Pandas, NumPy, Matplotlib, Seaborn
 
@@ -99,7 +99,7 @@ Visualization & BI: MS Excel, Power Query, Pivot Tables, Power BI
 
 Techniques: Data Visualization, Trend Analysis, Analytical Reporting
 
-🌍 Why This Project Matters
+# 🌍 Why This Project Matters
 
 This project demonstrates how public procurement data can be transformed into actionable insights to:
 
@@ -109,7 +109,7 @@ Encourage sustainable and healthy food sourcing
 
 Support transparent, data-driven governance
 
-🔭 Future Enhancements
+# 🔭 Future Enhancements
 
 Forecast food spending trends using machine learning
 
@@ -119,7 +119,7 @@ Expand dashboard interactivity for public access
 
 Geo-map vendor origins to assess local vs. global sourcing
 
-🤝 Let’s Connect
+# 🤝 Let’s Connect
 
 Interested in improving public data transparency or procurement analytics?
 Feel free to fork the repository, open an issue, or collaborate.
