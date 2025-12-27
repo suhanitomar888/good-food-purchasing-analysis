@@ -1,13 +1,13 @@
-🥕 Good Food Purchasing Analytics & Dashboard
+#🥕 Good Food Purchasing Analytics & Dashboard
 
 Government Food Purchasing Trends Across Agencies
 
-📌 Project Overview
+#📌 Project Overview
 
 This project analyzes Good Food Purchasing Data from U.S. city agencies to uncover insights into public food spending, vendor behavior, pricing trends, and sustainability indicators.
 The analysis is complemented by an interactive dashboard that enables data-driven and sustainable food procurement decisions.
 
-📁 Dataset
+#📁 Dataset
 
 Source: U.S. Government Open Data Portal
 
